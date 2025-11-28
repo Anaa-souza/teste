@@ -44,7 +44,7 @@ O desenvolvimento seguiu princípios da metodologia ágil, com divisão de taref
 - Canal de contato via formulário e WhatsApp  
 
 ---
- ______________________________________________________________
+ 
 
 
 ## 🎨 Paleta de Cores Oficial — Dr. Peanut
