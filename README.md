@@ -96,36 +96,36 @@ Estruturado para permitir:
 ## 🏗️ Estrutura do Sistema (Banco de Dados)
 
 ### 👤 Usuário
-- 🆔 ID (PK)  
-- 👤 Nome  
-- 📧 Email  
-- 📞 Telefone  
-- 🔑 Senha  
+- 🆔 `ID (PK)` – Identificador único do usuário  
+- 👤 `Nome do Usuário` – Nome do usuário cadastrado  
+- 📧 `Email` – Endereço eletrônico do usuário  
+- 📞 `Telefone` – Contato telefônico  
+- 🔑 `Senha` – Credencial de acesso
 
 ---
 
 ### 🏢 Fornecedor
-- 🆔 ID (PK)  
-- 🏢 Nome do Fornecedor  
-- 🪪 CNPJ  
-- 🏠 Endereço  
-- 📞 Telefone  
-- 📧 Email  
-- 📝 Observações  
-- 👤 usuario_id (FK)  
-- ✏️ Edição / 🗑️ Exclusão  
+- 🆔 `ID (PK)` – Identificador único do fornecedor  
+- 🏢 `Nome do Fornecedor` – Nome da empresa ou pessoa jurídica  
+- 🪪 `CNPJ` – Documento de identificação fiscal  
+- 🏠 `Endereço` – Localização do fornecedor  
+- 📞 `Telefone` – Contato telefônico  
+- 📧 `Email` – Contato eletrônico  
+- 📝 `Observações` – Informações adicionais relevantes  
+- 📝✏️ `Edição e Exclusão` – Permite atualizar e remover fornecedores e produtos vinculados  
+- 👤 `usuario_id (FK)` – Identificação do usuário responsável pelo cadastro   
 
 ---
 
 ### 📦 Produto
-- 🆔 ID (PK)  
-- 🏷️ Nome  
-- 🔢 Código (SKU)  
-- 📖 Descrição  
-- 📦 Quantidade em Estoque  
-- 💲 Preço Unitário  
-- 🖼️ Imagem  
-- 🔗 fornecedor_id (FK)  
+- 🆔 `ID (PK)` – Identificador único do produto  
+- 🏷️ `Nome do Produto` – Nome do item  
+- 🔢 `Código (SKU)` – Código interno  
+- 📖 `Descrição` – Detalhes do produto  
+- 📦 `Quantidade em Estoque` – Unidades disponíveis  
+- 💲 `Preço Unitário` – Valor por unidade  
+- 🖼️ `Imagens` – Arquivos visuais  
+- 🔗 `fornecedor_id (FK)` – Fornecedor responsável  
 
 ---
 
@@ -151,28 +151,28 @@ Conecta o sistema ao MySQL e define o charset padrão.
 
 ### 🔐 Autenticação
 
-- **fazer_login.php** — Valida credenciais e cria a sessão  
-- **sair.php** — Encerra sessão e redireciona  
+- `fazer_login.php` — Valida credenciais e cria a sessão 
+- `sair.php` — Encerra sessão e redireciona  sair.php
 
 ---
 
 ### 👤 Usuários
 
-- **salvar_usuario.php** — Cadastro de novos usuários  
+- `salvar_usuario.php` — Cadastro de novos usuários 
 
 ---
 
 ### 🏢 Fornecedores
 
-- **salvar_fornecedor.php** — Cadastro de fornecedores  
-- **delete_fornecedor.php** — Exclusão via ID  
+- `salvar_fornecedor.php` — Cadastro de fornecedores 
+- `delete_fornecedor.php` — Exclusão via ID  
 
 ---
 
 ### 📦 Produtos
 
-- **salvar_produto.php** — Cadastro + upload de imagens  
-- **delete_produto.php** — Exclusão via ID  
+- `salvar_produto.php` — Cadastro + upload de imagens  
+- `delete_produto.php` — Exclusão via ID  delete_produto.php
 
 ---
 
