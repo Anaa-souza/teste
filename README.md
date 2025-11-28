@@ -1,68 +1,221 @@
-## 🖥️ PHP
-Implementação da linguagem PHP no projeto Dr. Peanut, com foco no processamento das informações do sistema e na criação de páginas dinâmicas que respondem às ações do usuário.
-O objetivo é permitir:
-Processamento de informações no lado do servidor
+# 🥜 Sistema de Cadastro Dr Peanut
 
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-v5.2-330072?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-v3.1-E74E0F?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-Protótipo-330072?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-FFFFFF?style=for-the-badge&logoColor=330072" />
+</p>
 
-Integração com HTML e páginas dinâmicas
+🌐 Projeto Website Institucional - Dr. Peanut
 
+Este projeto tem como objetivo o desenvolvimento de um protótipo no Figma e a implementação de um website institucional para a marca Dr. Peanut. A plataforma contempla funcionalidades básicas de gestão, como:
 
-Manipulação de dados enviados pelos usuários
+✅ Cadastro de fornecedores  
+✅ Cadastro de produtos  
+✅ Listagem de produtos disponíveis  
 
+---
 
-Execução de regras, validações e fluxos lógicos
+## 📦 Escopo da Sprint 1
 
-## 🏗️  Estrutura do Sistema
-'conexao.php' — Responsável por conectar o sistema ao MySQL e definir o charset padrão.
+- Criar protótipo funcional no Figma.  
+- Desenvolver páginas principais: Home, Produtos, Contato.  
+- Implementar funcionalidades de cadastro e listagem de produtos e fornecedores.  
+- Garantir responsividade e boa apresentação visual.
+
+---
+
+## 🛠️ Planejamento e Metodologia
+
+O desenvolvimento seguiu princípios da metodologia ágil, com divisão de tarefas em etapas.
+
+---
+
+## ✨ Funcionalidades Desenvolvidas
+
+- Cadastro de fornecedores  
+- Cadastro de produtos  
+- Listagem de produtos disponíveis  
+- Página institucional com informações da marca  
+- Canal de contato via formulário e WhatsApp  
+
+---
+
+## 💻 Tecnologias e Ferramentas Utilizadas
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" width="40" />
+</p>
+
+- **HTML** – Estruturação das páginas  
+- **CSS** – Estilização e responsividade  
+- **Figma** – Criação do protótipo visual  
+
+---
+
+## 🎨 Paleta de Cores Oficial — Dr. Peanut
+
+| Cor / Uso                              | HEX       | RGB             | CMYK              |
+|----------------------------------------|-----------|------------------|--------------------|
+| **Branco principal**                   | `#FFFFFF` | 255, 255, 255    | —                  |
+| **Preto (texto / cor escura)**         | `#141414` | 20, 20, 20       | 75, 65, 65, 80     |
+| **Laranja de destaque**               | `#E74E0F` | 231, 78, 15      | 0, 80, 100, 0      |
+| **Roxo complementar**                 | `#330072` | 51, 0, 114       | 98, 100, 22, 13    |
+
+---
+
+## 📸 Protótipo
+
+<img width="1056" height="788" src="https://github.com/user-attachments/assets/b8ba741f-c29b-4a70-b47b-71c22d262cac" />
+
+---
+
+## 🔗 Links do Protótipo no Figma
+
+- 💻 **Desktop:**  
+  https://www.figma.com/design/DeVtQDLZHbx14F7VIqXgtm/Protótipo-Dr-Penaut?node-id=5-2
+
+- 📱 **Mobile:**  
+  https://www.figma.com/design/nXUmpX0ut2QLGcmrGHqnV1/Untitled?node-id=0-1
+
+---
+
+# 🗄️ Banco de Dados — Dr. Peanut
+
+Estruturado para permitir:
+
+- Cadastro de fornecedores e produtos  
+- Edição de dados existentes  
+- Exclusão de registros  
+
+---
+
+## 🏗️ Estrutura do Sistema (Banco de Dados)
+
+### 👤 Usuário
+- 🆔 ID (PK)  
+- 👤 Nome  
+- 📧 Email  
+- 📞 Telefone  
+- 🔑 Senha  
+
+---
+
+### 🏢 Fornecedor
+- 🆔 ID (PK)  
+- 🏢 Nome do Fornecedor  
+- 🪪 CNPJ  
+- 🏠 Endereço  
+- 📞 Telefone  
+- 📧 Email  
+- 📝 Observações  
+- 👤 usuario_id (FK)  
+- ✏️ Edição / 🗑️ Exclusão  
+
+---
+
+### 📦 Produto
+- 🆔 ID (PK)  
+- 🏷️ Nome  
+- 🔢 Código (SKU)  
+- 📖 Descrição  
+- 📦 Quantidade em Estoque  
+- 💲 Preço Unitário  
+- 🖼️ Imagem  
+- 🔗 fornecedor_id (FK)  
+
+---
+
+# 🖥️ Implementação PHP no Sistema Dr. Peanut
+
+O PHP é responsável por:
+
+- ⚙️ Processar dados  
+- 📦 Manipular registros no banco  
+- 📤 Receber formulários  
+- 🔄 Validar informações  
+- 🔐 Gerenciar sessões  
+- 🌐 Criar páginas dinâmicas  
+
+---
+
+## 🏗️ Arquitetura dos Arquivos PHP
+
+### 🧱 **conexao.php**
+Conecta o sistema ao MySQL e define o charset padrão.
 
 ---
 
 ### 🔐 Autenticação
 
-- *fazer_login.php* → Valida credenciais e cria a sessão do usuário  
-- *sair.php* → Encerra a sessão ativa e redireciona para o login  
+- **fazer_login.php** — Valida credenciais e cria a sessão  
+- **sair.php** — Encerra sessão e redireciona  
 
 ---
 
 ### 👤 Usuários
 
-- *salvar_usuario.php* → Cadastro de novos usuários no sistema  
+- **salvar_usuario.php** — Cadastro de novos usuários  
 
 ---
 
 ### 🏢 Fornecedores
 
-- *salvar_fornecedor.php* → Cadastro de fornecedores  
-- *delete_fornecedor.php* → Exclusão de fornecedores pelo ID  
+- **salvar_fornecedor.php** — Cadastro de fornecedores  
+- **delete_fornecedor.php** — Exclusão via ID  
 
 ---
 
 ### 📦 Produtos
 
-- *salvar_produto.php* → Cadastro de produtos + upload de imagens  
-- *delete_produto.php* → Exclusão de produtos pelo ID
-
-
-
-# 🎯 Objetivos do Sistema
-
-- ➕ Cadastrar novos usuários, fornecedores e produtos  
-- ✏️ Editar registros existentes  
-- 🗑️ Excluir informações do banco  
-- 🔗 Relacionar fornecedores com produtos  
-- 🔐 Autenticar usuários com login e sessão  
-- 🖼️ Fazer upload de imagens para produtos  
-- 🌐 Gerar páginas dinâmicas com PHP
-
-
-
-O PHP é responsável por:
-- ⚙️ Processar os dados
-- 📦 Manipular registros no banco
-- 📤 Receber formulários
-- 🔄 Executar lógicas de validação
-- 🔐 Gerenciar sessões de login
-- 🌐 Construir páginas dinâmicas
+- **salvar_produto.php** — Cadastro + upload de imagens  
+- **delete_produto.php** — Exclusão via ID  
 
 ---
+
+## 🎯 Objetivos do Sistema PHP
+
+- ➕ Cadastrar usuários, fornecedores e produtos  
+- ✏️ Editar registros  
+- 🗑️ Excluir dados  
+- 🔗 Relacionar fornecedores e produtos  
+- 🔐 Autenticação com login e sessão  
+- 🖼️ Upload de imagens  
+- 🌐 Páginas dinâmicas geradas com PHP  
+
+---
+
+## 🧠 Aprendizados
+
+- Metodologias ágeis na prática  
+- Integração entre Design e Front-end  
+- Uso de Git e GitHub  
+- Estruturação de banco de dados  
+- Implementação de fluxos de cadastro e listagem  
+
+---
+
+## 💬 Contato
+
+[![Email](https://img.shields.io/badge/Email-contato@code6.dev-E74E0F?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contato@code6.dev)  
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-(11)%2091234--5678-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511912345678)  
+[![Telefone](https://img.shields.io/badge/Telefone-(11)%203456--7890-141414?style=for-the-badge&logo=phone&logoColor=white)]()  
+[![Website](https://img.shields.io/badge/Site-www.code6.dev-330072?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.code6.dev)
+
+---
+
+## 👥 Equipe
+
+| Nome                          | Função        | Contato                          |
+|-------------------------------|---------------|----------------------------------|
+| Ana Carolina da Fonseca Souza | Desenvolvedora| ana.c.souza150@aluno.senai.br   |
+| Evellyn Silva de Lima         | Desenvolvedora| evellyn.s.lima6@aluno.senai.br  |
+| Gustavo Henrique F. Barreto   | Desenvolvedor | gustavo.h.barreto6@aluno.senai.br |
+| Isabella Dias da Silva        | Scrum Master  | isabella.d.silva7@aluno.senai.br |
+| Leonardo Alves Leão           | Desenvolvedor | leonardo.a.leao@aluno.senai.br |
+| Pedro de Oliveira             | Desenvolvedor | pedro.oliveira23@aluno.senai.br |
+
 
