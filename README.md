@@ -221,7 +221,7 @@ Conecta o sistema ao MySQL e define o charset padrão.
 - 🖼️ Upload de imagens  
 - 🌐 Páginas dinâmicas geradas com PHP  
 
----
+
 _____________________________________________
 
 ## 🗂️ Diagrama 
