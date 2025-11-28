@@ -226,7 +226,8 @@ _____________________________________________
 
 ## 🗂️ Diagrama 
 
-<img width="598" height="335" alt="image" src="https://github.com/user-attachments/assets/7b0dad84-0e2b-4a6a-ae4b-41de7191f75b" />
+<img width="598" height="335" alt="image" src="https://github.com/user-attachments/assets/c9949ecd-14cb-45d2-af5c-119beccfc94f" />
+
 
 _______________________________________________________________
 
