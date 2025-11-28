@@ -56,6 +56,8 @@ O desenvolvimento seguiu princípios da metodologia ágil, com divisão de taref
 - **HTML** – Estruturação das páginas  
 - **CSS** – Estilização e responsividade  
 - **Figma** – Criação do protótipo visual  
+- **PHP** – Processamento no servidor, regras de negócio, autenticação e geração dinâmica de páginas  
+- **MySQL** – Armazenamento de dados, relações entre tabelas e consultas do sistema  
 
 ---
 
