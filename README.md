@@ -71,7 +71,7 @@ O desenvolvimento seguiu princípios da metodologia ágil, com divisão de taref
   
 | Página Principal Original | Página Principal de Natal|
 |------------------|------------------------|
-| <img width="1056" height="788" src="https://github.com/user-attachments/assets/b8ba741f-c29b-4a70-b47b-71c22d262cac" />|<img width="443" height="331" alt="image" src="https://github.com/user-attachments/assets/f084e069-b211-447b-8cea-1ba78367ebc7" />
+| <img width="1056" height="788" src="https://github.com/user-attachments/assets/b8ba741f-c29b-4a70-b47b-71c22d262cac" />|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/f084e069-b211-447b-8cea-1ba78367ebc7" />
 
  
 
