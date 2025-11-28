@@ -44,6 +44,60 @@ O desenvolvimento seguiu princípios da metodologia ágil, com divisão de taref
 - Canal de contato via formulário e WhatsApp  
 
 ---
+ ______________________________________________________________
+
+
+## 🎨 Paleta de Cores Oficial — Dr. Peanut
+
+| Cor / Uso                              | Código HEX | RGB             | CMYK              |
+|----------------------------------------|------------|------------------|--------------------|
+| **Branco principal**                   | `#FFFFFF`  | `255, 255, 255`  | —                  |
+| **Preto (texto / cor escura principal)** | `#141414`  | `20, 20, 20`     | `75, 65, 65, 80`   |
+| **Laranja de destaque**               | `#E74E0F`  | `231, 78, 15`    | `0, 80, 100, 0`    |
+| **Roxo complementar**                 | `#330072`  | `51, 0, 114`     | `98, 100, 22, 13`  |
+
+
+**Tipografia:** Lalezar
+
+**Layout:** Layout clean e moderno, com foco em imagens vibrantes dos produtos, seções bem definidas.
+
+_______________________________________________________________________
+
+## ✅ Critérios de Aceitação
+
+- Site totalmente responsivo em dispositivos móveis
+
+- Todas as páginas e seções funcionais com links corretos
+
+- Formulários operando corretamente, com envio de informações por e-mail
+
+- Interface alinhada com o protótipo desenvolvido no Figma
+
+- Facilidade de navegação e clareza na apresentação dos conteúdos
+
+______________________________________________________________________
+## 📸 Protótipo
+  
+| Página Principal Original | Página Principal de Natal|
+|------------------|------------------------|
+| <img width="1056" height="788" src="https://github.com/user-attachments/assets/b8ba741f-c29b-4a70-b47b-71c22d262cac" />|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/f084e069-b211-447b-8cea-1ba78367ebc7" /> 
+
+| Página Cadastre-se Original | Página Cadastre-se de Natal|
+|------------------|------------------------|
+|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/964e5a3c-21e3-4d52-a926-d34f95504aee" />|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/3864102f-de60-41a3-b218-85d8a9bd0b5e" />
+______________________________________________________________________
+ ---
+
+## 🔗 Links do Protótipo no Figma
+
+- 💻 **Desktop:**  
+  https://www.figma.com/design/DeVtQDLZHbx14F7VIqXgtm/Protótipo-Dr-Penaut?node-id=5-2
+
+- 📱 **Mobile:**  
+  https://www.figma.com/design/nXUmpX0ut2QLGcmrGHqnV1/Untitled?node-id=0-1
+
+---
+
 
 ## 💻 Tecnologias e Ferramentas Utilizadas
 
@@ -61,43 +115,6 @@ O desenvolvimento seguiu princípios da metodologia ágil, com divisão de taref
 - **Figma** – Criação do protótipo visual  
 - **PHP** – Processamento no servidor, regras de negócio, autenticação e geração dinâmica de páginas  
 - **MySQL** – Armazenamento de dados, relações entre tabelas e consultas do sistema  
-
----
-
-## 🎨 Paleta de Cores Oficial — Dr. Peanut
-
-| Cor / Uso                              | HEX       | RGB             | CMYK              |
-|----------------------------------------|-----------|------------------|--------------------|
-| **Branco principal**                   | `#FFFFFF` | 255, 255, 255    | —                  |
-| **Preto (texto / cor escura)**         | `#141414` | 20, 20, 20       | 75, 65, 65, 80     |
-| **Laranja de destaque**               | `#E74E0F` | 231, 78, 15      | 0, 80, 100, 0      |
-| **Roxo complementar**                 | `#330072` | 51, 0, 114       | 98, 100, 22, 13    |
-
----
-
-## 📸 Protótipo
-  
-| Página Principal Original | Página Principal de Natal|
-|------------------|------------------------|
-| <img width="1056" height="788" src="https://github.com/user-attachments/assets/b8ba741f-c29b-4a70-b47b-71c22d262cac" />|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/f084e069-b211-447b-8cea-1ba78367ebc7" /> 
-
-| Página Cadastre-se Original | Página Cadastre-se de Natal|
-|------------------|------------------------|
-|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/964e5a3c-21e3-4d52-a926-d34f95504aee" />|<img width="1056" height="788" alt="image" src="https://github.com/user-attachments/assets/3864102f-de60-41a3-b218-85d8a9bd0b5e" />
-
- 
-
- 
-
----
-
-## 🔗 Links do Protótipo no Figma
-
-- 💻 **Desktop:**  
-  https://www.figma.com/design/DeVtQDLZHbx14F7VIqXgtm/Protótipo-Dr-Penaut?node-id=5-2
-
-- 📱 **Mobile:**  
-  https://www.figma.com/design/nXUmpX0ut2QLGcmrGHqnV1/Untitled?node-id=0-1
 
 ---
 
@@ -205,6 +222,14 @@ Conecta o sistema ao MySQL e define o charset padrão.
 - 🌐 Páginas dinâmicas geradas com PHP  
 
 ---
+_____________________________________________
+
+## 🗂️ Diagrama 
+
+<img width="598" height="335" alt="image" src="https://github.com/user-attachments/assets/7b0dad84-0e2b-4a6a-ae4b-41de7191f75b" />
+
+_______________________________________________________________
+
 
 ## 🧠 Aprendizados
 
